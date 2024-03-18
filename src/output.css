@@ -626,24 +626,19 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -652,10 +647,6 @@ video {
 
 .font-thin {
   font-weight: 100;
-}
-
-.leading-6 {
-  line-height: 1.5rem;
 }
 
 .leading-4 {
@@ -674,6 +665,10 @@ video {
 body {
   background: #0a0c1b;
   color: #e6e5f3;
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 @media (min-width: 1024px) {
