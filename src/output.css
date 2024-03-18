@@ -558,40 +558,16 @@ video {
   margin-top: 2.5rem;
 }
 
-.mt-52 {
-  margin-top: 13rem;
-}
-
 .flex {
   display: flex;
-}
-
-.hidden {
-  display: none;
 }
 
 .h-full {
   height: 100%;
 }
 
-.h-\[60vh\] {
-  height: 60vh;
-}
-
-.h-8 {
-  height: 2rem;
-}
-
-.h-\[80vh\] {
-  height: 80vh;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-\[60vw\] {
-  width: 60vw;
 }
 
 .grow {
@@ -622,40 +598,8 @@ video {
   overflow: hidden;
 }
 
-.overflow-y-auto {
-  overflow-y: auto;
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
-}
-
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded {
-  border-radius: 0.25rem;
-}
-
-.rounded-r {
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
-}
-
-.rounded-r-xl {
-  border-top-right-radius: 0.75rem;
-  border-bottom-right-radius: 0.75rem;
-}
-
-.rounded-l {
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
-
-.rounded-l-xl {
-  border-top-left-radius: 0.75rem;
-  border-bottom-left-radius: 0.75rem;
 }
 
 .bg-\[\#1c1938\] {
@@ -678,13 +622,13 @@ video {
   padding-bottom: 5rem;
 }
 
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl {
@@ -692,14 +636,14 @@ video {
   line-height: 2.25rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -714,6 +658,10 @@ video {
   line-height: 1.5rem;
 }
 
+.leading-4 {
+  line-height: 1rem;
+}
+
 .text-\[\#A266CD\] {
   --tw-text-opacity: 1;
   color: rgb(162 102 205 / var(--tw-text-opacity));
@@ -726,31 +674,6 @@ video {
 body {
   background: #0a0c1b;
   color: #e6e5f3;
-  font-family: Heebo, sans-serif;
-}
-
-@media (min-width: 640px) {
-  .sm\:rounded {
-    border-radius: 0.25rem;
-  }
-
-  .sm\:rounded-xl {
-    border-radius: 0.75rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:h-\[60vh\] {
-    height: 60vh;
-  }
-
-  .md\:w-\[30vw\] {
-    width: 30vw;
-  }
-
-  .md\:w-\[60vw\] {
-    width: 60vw;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -778,11 +701,6 @@ body {
     flex-direction: row;
   }
 
-  .lg\:rounded-r-xl {
-    border-top-right-radius: 0.75rem;
-    border-bottom-right-radius: 0.75rem;
-  }
-
   .lg\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
@@ -791,29 +709,5 @@ body {
   .lg\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:mt-52 {
-    margin-top: 13rem;
-  }
-
-  .xl\:h-\[60vh\] {
-    height: 60vh;
-  }
-
-  .xl\:w-\[60vw\] {
-    width: 60vw;
-  }
-
-  .xl\:rounded-r-xl {
-    border-top-right-radius: 0.75rem;
-    border-bottom-right-radius: 0.75rem;
-  }
-
-  .xl\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
   }
 }
